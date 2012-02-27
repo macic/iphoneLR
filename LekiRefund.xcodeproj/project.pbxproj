@@ -7,25 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008C52BF14FBD4F6006EAECF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C52B814FBD4F6006EAECF /* FirstViewController.m */; };
+		008C52C014FBD4F6006EAECF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C52BA14FBD4F6006EAECF /* SecondViewController.m */; };
+		008C52C114FBD4F6006EAECF /* TableViewFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C52BC14FBD4F6006EAECF /* TableViewFirstController.m */; };
+		008C52C214FBD4F6006EAECF /* TableViewSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C52BE14FBD4F6006EAECF /* TableViewSecondController.m */; };
+		008C52CA14FBD58C006EAECF /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008C52C814FBD58C006EAECF /* FirstViewController.xib */; };
+		008C52CB14FBD58C006EAECF /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008C52C914FBD58C006EAECF /* SecondViewController.xib */; };
+		008C52CD14FBD597006EAECF /* Tabelka.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008C52CC14FBD597006EAECF /* Tabelka.xib */; };
+		008C52E814FBD6A2006EAECF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52D914FBD6A2006EAECF /* Default@2x.png */; };
+		008C52E914FBD6A2006EAECF /* favorites-no.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DA14FBD6A2006EAECF /* favorites-no.png */; };
+		008C52EA14FBD6A2006EAECF /* favorites-no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DB14FBD6A2006EAECF /* favorites-no@2x.png */; };
+		008C52EB14FBD6A2006EAECF /* favorites-yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DC14FBD6A2006EAECF /* favorites-yes.png */; };
+		008C52EC14FBD6A2006EAECF /* favorites-yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DD14FBD6A2006EAECF /* favorites-yes@2x.png */; };
+		008C52ED14FBD6A2006EAECF /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DE14FBD6A2006EAECF /* favorites.png */; };
+		008C52EE14FBD6A2006EAECF /* favorites@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52DF14FBD6A2006EAECF /* favorites@2x.png */; };
+		008C52EF14FBD6A2006EAECF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E014FBD6A2006EAECF /* first.png */; };
+		008C52F014FBD6A2006EAECF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E114FBD6A2006EAECF /* first@2x.png */; };
+		008C52F314FBD6A2006EAECF /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E414FBD6A2006EAECF /* search.png */; };
+		008C52F414FBD6A2006EAECF /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E514FBD6A2006EAECF /* search@2x.png */; };
+		008C52F514FBD6A2006EAECF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E614FBD6A2006EAECF /* second.png */; };
+		008C52F614FBD6A2006EAECF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52E714FBD6A2006EAECF /* second@2x.png */; };
+		008C52FB14FBD74C006EAECF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52FA14FBD74C006EAECF /* Default.png */; };
+		008C52FD14FBD767006EAECF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52FC14FBD767006EAECF /* Icon.png */; };
+		008C52FF14FBD76B006EAECF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C52FE14FBD76B006EAECF /* Icon@2x.png */; };
+		008C530314FBD7CF006EAECF /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C530014FBD7CF006EAECF /* Default-Landscape.png */; };
+		008C530414FBD7CF006EAECF /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 008C530114FBD7CF006EAECF /* Default-Portrait.png */; };
+		008C530514FBD7CF006EAECF /* favlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 008C530214FBD7CF006EAECF /* favlist.plist */; };
+		008C530814FBD7FB006EAECF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C530614FBD7FB006EAECF /* libsqlite3.0.dylib */; };
+		008C530914FBD7FB006EAECF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C530714FBD7FB006EAECF /* libsqlite3.dylib */; };
+		008C530B14FBD808006EAECF /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C530A14FBD808006EAECF /* libz.1.2.5.dylib */; };
+		008C530D14FBD85F006EAECF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C530C14FBD85F006EAECF /* iAd.framework */; };
 		009DCF4814FAE7D500AE2BB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009DCF4714FAE7D500AE2BB3 /* UIKit.framework */; };
 		009DCF4A14FAE7D500AE2BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009DCF4914FAE7D500AE2BB3 /* Foundation.framework */; };
 		009DCF4C14FAE7D500AE2BB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009DCF4B14FAE7D500AE2BB3 /* CoreGraphics.framework */; };
 		009DCF5214FAE7D500AE2BB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 009DCF5014FAE7D500AE2BB3 /* InfoPlist.strings */; };
 		009DCF5414FAE7D500AE2BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 009DCF5314FAE7D500AE2BB3 /* main.m */; };
 		009DCF5814FAE7D500AE2BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 009DCF5714FAE7D500AE2BB3 /* AppDelegate.m */; };
+		009DCF6714FAE89100AE2BB3 /* database.db in Resources */ = {isa = PBXBuildFile; fileRef = 009DCF6314FAE89100AE2BB3 /* database.db */; };
+		009DCF6814FAE89100AE2BB3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009DCF6514FAE89100AE2BB3 /* DetailViewController.m */; };
+		009DCF6914FAE89100AE2BB3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009DCF6614FAE89100AE2BB3 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		008C52B714FBD4F5006EAECF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		008C52B814FBD4F6006EAECF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		008C52B914FBD4F6006EAECF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		008C52BA14FBD4F6006EAECF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		008C52BB14FBD4F6006EAECF /* TableViewFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewFirstController.h; sourceTree = "<group>"; };
+		008C52BC14FBD4F6006EAECF /* TableViewFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewFirstController.m; sourceTree = "<group>"; };
+		008C52BD14FBD4F6006EAECF /* TableViewSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSecondController.h; sourceTree = "<group>"; };
+		008C52BE14FBD4F6006EAECF /* TableViewSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewSecondController.m; sourceTree = "<group>"; };
+		008C52C814FBD58C006EAECF /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		008C52C914FBD58C006EAECF /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		008C52CC14FBD597006EAECF /* Tabelka.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tabelka.xib; sourceTree = "<group>"; };
+		008C52D914FBD6A2006EAECF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		008C52DA14FBD6A2006EAECF /* favorites-no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-no.png"; sourceTree = "<group>"; };
+		008C52DB14FBD6A2006EAECF /* favorites-no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-no@2x.png"; sourceTree = "<group>"; };
+		008C52DC14FBD6A2006EAECF /* favorites-yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-yes.png"; sourceTree = "<group>"; };
+		008C52DD14FBD6A2006EAECF /* favorites-yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites-yes@2x.png"; sourceTree = "<group>"; };
+		008C52DE14FBD6A2006EAECF /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
+		008C52DF14FBD6A2006EAECF /* favorites@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorites@2x.png"; sourceTree = "<group>"; };
+		008C52E014FBD6A2006EAECF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		008C52E114FBD6A2006EAECF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		008C52E414FBD6A2006EAECF /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		008C52E514FBD6A2006EAECF /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		008C52E614FBD6A2006EAECF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		008C52E714FBD6A2006EAECF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		008C52FA14FBD74C006EAECF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		008C52FC14FBD767006EAECF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		008C52FE14FBD76B006EAECF /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		008C530014FBD7CF006EAECF /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		008C530114FBD7CF006EAECF /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		008C530214FBD7CF006EAECF /* favlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = favlist.plist; sourceTree = "<group>"; };
+		008C530614FBD7FB006EAECF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		008C530714FBD7FB006EAECF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		008C530A14FBD808006EAECF /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		008C530C14FBD85F006EAECF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		009DCF4314FAE7D500AE2BB3 /* LekiRefund.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LekiRefund.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009DCF4714FAE7D500AE2BB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		009DCF4914FAE7D500AE2BB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		009DCF4B14FAE7D500AE2BB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		009DCF4F14FAE7D500AE2BB3 /* LekiRefund-Info.plist */ = {isa = PBXFileReference; path = "LekiRefund-Info.plist"; sourceTree = "<group>"; };
+		009DCF4F14FAE7D500AE2BB3 /* LekiRefund-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LekiRefund-Info.plist"; sourceTree = "<group>"; };
 		009DCF5114FAE7D500AE2BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		009DCF5314FAE7D500AE2BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		009DCF5514FAE7D500AE2BB3 /* LekiRefund-Prefix.pch */ = {isa = PBXFileReference; path = "LekiRefund-Prefix.pch"; sourceTree = "<group>"; };
-		009DCF5614FAE7D500AE2BB3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		009DCF5514FAE7D500AE2BB3 /* LekiRefund-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LekiRefund-Prefix.pch"; sourceTree = "<group>"; };
+		009DCF5614FAE7D500AE2BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		009DCF5714FAE7D500AE2BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		009DCF6314FAE89100AE2BB3 /* database.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.db; sourceTree = "<group>"; };
+		009DCF6414FAE89100AE2BB3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		009DCF6514FAE89100AE2BB3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		009DCF6614FAE89100AE2BB3 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +104,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008C530D14FBD85F006EAECF /* iAd.framework in Frameworks */,
+				008C530B14FBD808006EAECF /* libz.1.2.5.dylib in Frameworks */,
+				008C530814FBD7FB006EAECF /* libsqlite3.0.dylib in Frameworks */,
+				008C530914FBD7FB006EAECF /* libsqlite3.dylib in Frameworks */,
 				009DCF4814FAE7D500AE2BB3 /* UIKit.framework in Frameworks */,
 				009DCF4A14FAE7D500AE2BB3 /* Foundation.framework in Frameworks */,
 				009DCF4C14FAE7D500AE2BB3 /* CoreGraphics.framework in Frameworks */,
@@ -42,6 +117,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008C52D814FBD683006EAECF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				008C52FE14FBD76B006EAECF /* Icon@2x.png */,
+				008C52FC14FBD767006EAECF /* Icon.png */,
+				008C530014FBD7CF006EAECF /* Default-Landscape.png */,
+				008C530114FBD7CF006EAECF /* Default-Portrait.png */,
+				008C52FA14FBD74C006EAECF /* Default.png */,
+				008C52D914FBD6A2006EAECF /* Default@2x.png */,
+				008C52DA14FBD6A2006EAECF /* favorites-no.png */,
+				008C52DB14FBD6A2006EAECF /* favorites-no@2x.png */,
+				008C52DC14FBD6A2006EAECF /* favorites-yes.png */,
+				008C52DD14FBD6A2006EAECF /* favorites-yes@2x.png */,
+				008C52DE14FBD6A2006EAECF /* favorites.png */,
+				008C52DF14FBD6A2006EAECF /* favorites@2x.png */,
+				008C52E014FBD6A2006EAECF /* first.png */,
+				008C52E114FBD6A2006EAECF /* first@2x.png */,
+				008C52E414FBD6A2006EAECF /* search.png */,
+				008C52E514FBD6A2006EAECF /* search@2x.png */,
+				008C52E614FBD6A2006EAECF /* second.png */,
+				008C52E714FBD6A2006EAECF /* second@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		009DCF3814FAE7D500AE2BB3 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +162,7 @@
 		009DCF4614FAE7D500AE2BB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				008C530C14FBD85F006EAECF /* iAd.framework */,
 				009DCF4714FAE7D500AE2BB3 /* UIKit.framework */,
 				009DCF4914FAE7D500AE2BB3 /* Foundation.framework */,
 				009DCF4B14FAE7D500AE2BB3 /* CoreGraphics.framework */,
@@ -72,8 +173,9 @@
 		009DCF4D14FAE7D500AE2BB3 /* LekiRefund */ = {
 			isa = PBXGroup;
 			children = (
-				009DCF5614FAE7D500AE2BB3 /* AppDelegate.h */,
-				009DCF5714FAE7D500AE2BB3 /* AppDelegate.m */,
+				009DCF6B14FAE90C00AE2BB3 /* Classes */,
+				008C52D814FBD683006EAECF /* Images */,
+				009DCF5E14FAE80900AE2BB3 /* NIBs */,
 				009DCF4E14FAE7D500AE2BB3 /* Supporting Files */,
 			);
 			path = LekiRefund;
@@ -82,12 +184,47 @@
 		009DCF4E14FAE7D500AE2BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				008C530A14FBD808006EAECF /* libz.1.2.5.dylib */,
+				008C530614FBD7FB006EAECF /* libsqlite3.0.dylib */,
+				008C530714FBD7FB006EAECF /* libsqlite3.dylib */,
+				008C530214FBD7CF006EAECF /* favlist.plist */,
+				009DCF6314FAE89100AE2BB3 /* database.db */,
 				009DCF4F14FAE7D500AE2BB3 /* LekiRefund-Info.plist */,
 				009DCF5014FAE7D500AE2BB3 /* InfoPlist.strings */,
 				009DCF5314FAE7D500AE2BB3 /* main.m */,
 				009DCF5514FAE7D500AE2BB3 /* LekiRefund-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		009DCF5E14FAE80900AE2BB3 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				008C52CC14FBD597006EAECF /* Tabelka.xib */,
+				008C52C814FBD58C006EAECF /* FirstViewController.xib */,
+				008C52C914FBD58C006EAECF /* SecondViewController.xib */,
+				009DCF6614FAE89100AE2BB3 /* DetailViewController.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		009DCF6B14FAE90C00AE2BB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				008C52B714FBD4F5006EAECF /* FirstViewController.h */,
+				008C52B814FBD4F6006EAECF /* FirstViewController.m */,
+				008C52B914FBD4F6006EAECF /* SecondViewController.h */,
+				008C52BA14FBD4F6006EAECF /* SecondViewController.m */,
+				008C52BB14FBD4F6006EAECF /* TableViewFirstController.h */,
+				008C52BC14FBD4F6006EAECF /* TableViewFirstController.m */,
+				008C52BD14FBD4F6006EAECF /* TableViewSecondController.h */,
+				008C52BE14FBD4F6006EAECF /* TableViewSecondController.m */,
+				009DCF5614FAE7D500AE2BB3 /* AppDelegate.h */,
+				009DCF5714FAE7D500AE2BB3 /* AppDelegate.m */,
+				009DCF6414FAE89100AE2BB3 /* DetailViewController.h */,
+				009DCF6514FAE89100AE2BB3 /* DetailViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +278,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				009DCF5214FAE7D500AE2BB3 /* InfoPlist.strings in Resources */,
+				009DCF6714FAE89100AE2BB3 /* database.db in Resources */,
+				009DCF6914FAE89100AE2BB3 /* DetailViewController.xib in Resources */,
+				008C52CA14FBD58C006EAECF /* FirstViewController.xib in Resources */,
+				008C52CB14FBD58C006EAECF /* SecondViewController.xib in Resources */,
+				008C52CD14FBD597006EAECF /* Tabelka.xib in Resources */,
+				008C52E814FBD6A2006EAECF /* Default@2x.png in Resources */,
+				008C52E914FBD6A2006EAECF /* favorites-no.png in Resources */,
+				008C52EA14FBD6A2006EAECF /* favorites-no@2x.png in Resources */,
+				008C52EB14FBD6A2006EAECF /* favorites-yes.png in Resources */,
+				008C52EC14FBD6A2006EAECF /* favorites-yes@2x.png in Resources */,
+				008C52ED14FBD6A2006EAECF /* favorites.png in Resources */,
+				008C52EE14FBD6A2006EAECF /* favorites@2x.png in Resources */,
+				008C52EF14FBD6A2006EAECF /* first.png in Resources */,
+				008C52F014FBD6A2006EAECF /* first@2x.png in Resources */,
+				008C52F314FBD6A2006EAECF /* search.png in Resources */,
+				008C52F414FBD6A2006EAECF /* search@2x.png in Resources */,
+				008C52F514FBD6A2006EAECF /* second.png in Resources */,
+				008C52F614FBD6A2006EAECF /* second@2x.png in Resources */,
+				008C52FB14FBD74C006EAECF /* Default.png in Resources */,
+				008C52FD14FBD767006EAECF /* Icon.png in Resources */,
+				008C52FF14FBD76B006EAECF /* Icon@2x.png in Resources */,
+				008C530314FBD7CF006EAECF /* Default-Landscape.png in Resources */,
+				008C530414FBD7CF006EAECF /* Default-Portrait.png in Resources */,
+				008C530514FBD7CF006EAECF /* favlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +314,11 @@
 			files = (
 				009DCF5414FAE7D500AE2BB3 /* main.m in Sources */,
 				009DCF5814FAE7D500AE2BB3 /* AppDelegate.m in Sources */,
+				009DCF6814FAE89100AE2BB3 /* DetailViewController.m in Sources */,
+				008C52BF14FBD4F6006EAECF /* FirstViewController.m in Sources */,
+				008C52C014FBD4F6006EAECF /* SecondViewController.m in Sources */,
+				008C52C114FBD4F6006EAECF /* TableViewFirstController.m in Sources */,
+				008C52C214FBD4F6006EAECF /* TableViewSecondController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,9 +386,22 @@
 		009DCF5C14FAE7D500AE2BB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LekiRefund/LekiRefund-Prefix.pch";
 				INFOPLIST_FILE = "LekiRefund/LekiRefund-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LekiRefund\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -231,9 +410,22 @@
 		009DCF5D14FAE7D500AE2BB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LekiRefund/LekiRefund-Prefix.pch";
 				INFOPLIST_FILE = "LekiRefund/LekiRefund-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/LekiRefund\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +450,7 @@
 				009DCF5D14FAE7D500AE2BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

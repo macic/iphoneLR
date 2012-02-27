@@ -1,22 +1,39 @@
 //
 //  AppDelegate.m
-//  LekiRefund
+//  Wyszukiwarka Leków Refundowanych
 //
-//  Created by dzidzi on 26.02.2012.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Radek Jeruzal on 27.01.2012.
+//  Copyright (c) 2012 DziMac. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize tabBarController = _tabBarController;
+@synthesize navFirstController = _navFirstController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{ 
+    [application setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+    //[application setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    UINavigationController *viewController1 = [[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil];
+    viewController1.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    
+    UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    viewController2.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    //    self.tabBarController.tabBar.tintColor = [UIColor greenColor];
+    //self.tabBarController.tabBar.backgroundColor = [UIColor redColor];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -59,5 +76,19 @@
      See also applicationDidEnterBackground:.
      */
 }
+
+/*
+// Optional UITabBarControllerDelegate method.
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+}
+*/
+
+/*
+// Optional UITabBarControllerDelegate method.
+- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed
+{
+}
+*/
 
 @end
