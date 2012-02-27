@@ -263,11 +263,6 @@
 
 - (void)viewDidLoad
 {
-    [[NSNotificationCenter defaultCenter] 
-     addObserver:self
-     selector:@selector(receivedNotification:) 
-     name:@"searchString" object:nil];
-    
     favList = [self loadFavList];
     medicinesList = [self getDbData];
     results = medicinesList; //[self compareFullList:medicinesList withFaves:favList];
@@ -281,18 +276,6 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-
-- (void)receivedNotification:(NSNotification *)notification
-{
-    
-    
-    NSString *newString = [[notification userInfo]
-                           objectForKey:@"searchStringKey"];   
-    //NSLog (@"Successfully received the test notification! %@", fieldEditor);
-    searchBar.text=newString;
-    [self searchBar:searchBar textDidChange:newString];
-    
 }
 
 - (void)viewDidUnload
